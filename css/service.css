@@ -1,0 +1,495 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+
+}
+
+.icon {
+    display: none;
+}
+
+header .topheader {
+    width: 100%;
+    background-color: #0d6690;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topheader h1 {
+    color: rgb(185, 185, 185);
+    width: 50%;
+    /* border: 1rem solid red; */
+    text-align: center;
+    font-size: 2.3em;
+}
+
+
+@media only screen and (max-width: 30rem) {
+    .topheader h1 {
+        font-size: 1.3em;
+        width: 100%;
+    }
+}
+
+
+
+.big-banner {
+    /* height: 70vh; */
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.big-banner-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+}
+
+.big-banner-img img {
+    height: 38rem;
+    width: 50%;
+    display: flex;
+    object-fit: cover;
+    position: relative;
+}
+
+
+/*  */
+.big-banner .topnav {
+    overflow: hidden;
+    background-color: #db9e3400;
+    width: 100%;
+    margin: auto;
+    display: block;
+    font-weight: 3.125rem;
+
+
+}
+
+@media only screen and (max-width: 30rem) {
+    .big-banner .topnav {
+        background-color: #41a174;
+        width: 100%;
+    }
+}
+
+
+.big-banner .topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+    font-size: 1.563rem;
+    font-weight: 3.125rem;
+}
+
+.big-banner .topnav a:hover {
+    background-color: rgba(255, 252, 204, 0.075);
+    color: black;
+}
+
+.big-banner.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.big-banner .topnav .icon {
+    display: none;
+}
+
+
+.big-banner .topnav a.logo {
+    font-size: 1.563rem;
+    font-weight: bold;
+    display: block;
+    color: #ffffff;
+
+}
+
+
+.big-banner .topnav-right {
+    float: right;
+}
+
+
+@media only screen and (max-width: 30rem) {
+    .big-banner .topnav-right {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 30rem) {
+    .big-banner .topnav a {
+        display: none;
+    }
+   
+    .big-banner .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 30rem) {
+    .big-banner .topnav.responsive {
+        position: relative;
+    }
+
+   
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .big-banner .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/*  */
+
+
+.big-banner-content {
+    /* border: 1rem solid red; */
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 1.5em;
+    width: 40%;
+    color: white;
+    text-transform: uppercase;
+    /* left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right:auto; */
+}
+
+.big-banner-content p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column10 {
+    float: left;
+    width: 50%;
+    height: 2.813rem;
+    text-align:center;
+    color: black;
+    border: 2px solid #ffffff;/* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row10:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row10{
+   margin:auto;
+  width:30%;
+  }
+
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("photographer.jpg");
+
+    /* Add the blur effect */
+    filter: blur(0.5rem);
+    -webkit-filter: blur(0.5rem);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(220 220 220 / 40%);
+    color: white;
+    font-weight: bold;
+    /* border: 0.188rem solid #f1f1f1; */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 30rem) {
+    .bg-text {
+        z-index: 0;
+
+    }
+}
+
+.icons {
+
+    width: 6.25rem;
+    margin-top: -4rem;
+}
+
+.container {
+
+    padding: 2rem;
+    background-color: #313131;
+    font-size: 1.375rem;
+    text-align: center;
+    color: white;
+    margin-top: 0.313rem;
+
+
+}
+
+.border {
+
+    border: 0.188rem solid white;
+    padding: 1.5rem;
+}
+
+/* p{
+
+    position: absolute;
+    z-index: 5;
+    top: 70%;
+    left: 35%;
+    font-size:2rem;
+    font-weight: 50rem;
+    color: rgb(255, 255, 255);
+} */
+
+
+body {
+    background-image: url("https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.content {
+    max-width: 95rem;
+    margin: auto;
+    background: rgba(255, 255, 255, 0);
+    padding: 0.625rem;
+    border: 0.188rem solid rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    height: 114rem;
+
+}
+
+@media screen and (max-width: 30rem) {
+    .content {
+        height: 214rem;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* border:3px solid rgb(255, 255, 255); */
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f100;
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+    text-shadow: 0 0 10px black;
+     border:3px solid rgb(255, 255, 255);
+     padding: 10px;
+    
+  }
+  
+  .flex-container > div1 {
+    background-color: #f1f1f100;
+    width: 50%;
+    margin: 10px;
+    text-align: right;
+    line-height: 75px;
+    font-size: 30px;
+    text-shadow: 0 0 10px black;
+     border:3px solid rgb(255, 255, 255);
+     padding: 10px;
+  }
+  
+  /* @media screen and (max-width: 480px) {
+    .flex-container {
+      flex-direction: column;
+     
+    }
+  }
+  @media screen and (max-width: 360px)  {
+    .flex-container {
+      flex-direction: column;
+     
+    }
+  } */
+  
+  
+  @media screen and (max-width: 480px)  {
+    .div .div1 {
+      width:100%;
+     
+    }
+  }
+  @media screen and (max-width: 360px)  {
+    .div .div1 {
+      width:100%;
+     
+    }
+  }
+
+
+
+h3{
+    width: 80%;
+    margin-top: 1.5rem;
+    margin: auto;
+    padding: 1.25rem;
+    text-align: center;
+    color: white;
+    font-size: 1.563rem;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 0.625rem;
+    height: 15rem;
+    text-align: center; 
+    color: white;
+    font-size: 1.275rem;/* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 30rem) {
+    .column1 {
+      width: 100%;
+      height: 14rem;
+    }
+  }
+
+  .contain1 {
+    max-width: 80%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0);
+   
+    border: 0.188rem solid rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+   
+    margin-top: 1.5rem;
+
+}
+
+
+@media screen and (max-width: 30rem) {
+    .contain1 {
+      height: 43rem;
+      max-width: 100%;
+    }
+  }
+
+
+  /* img col */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column10 {
+    float: left;
+    width: 50%;
+    height: 2.813rem;
+    text-align:center;
+    color: black;/* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row10:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row10{
+   margin:auto;
+  width:30%;
+  }
+
+  .btn {
+    border: none;
+    color: rgb(219, 219, 219);
+    padding: 0.875rem 1.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+   
+  }
+  
+  .success {background-color: #b9b9b900;} 
+  .success:hover {background-color: #ffffff0c;}
+
+ .companytag{
+
+    color: white;
+    background-color: rgb(48, 155, 34);
+    box-shadow: 0 0 0.625rem black;
+    text-decoration: none;
+    text-align: center;
+    padding: 0; 
+ }
