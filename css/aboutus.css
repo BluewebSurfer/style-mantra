@@ -416,6 +416,7 @@ body {
     height: 27rem;
     border-radius: 50%;
     border: 5px solid rgb(255, 255, 255);
+    padding: 1rem;
     
 }
 @media screen and (max-width: 30rem) {
@@ -513,7 +514,8 @@ h3{
     width: 50%;
     height: 2.813rem;
     text-align:center;
-    color: black;/* Should be removed. Only for demonstration */
+    color: black;
+    padding: 0.400rem;/* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
