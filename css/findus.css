@@ -191,7 +191,7 @@ header .topheader {
     height: 2.813rem;
     text-align:center;
     color: black;
-    border: 2px solid #ffffff;/* Should be removed. Only for demonstration */
+    border: 2rem solid #ffffff;/* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
@@ -416,7 +416,7 @@ body {
     width: 27rem;
     height: 27rem;
     border-radius: 50%;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5rem solid rgb(255, 255, 255);
     
 }
 @media screen and (max-width: 30rem) {
@@ -503,8 +503,8 @@ h3{
   }
 
 
-  /* img col */
-  * {
+ /* img col */
+ * {
     box-sizing: border-box;
   }
   
@@ -515,7 +515,8 @@ h3{
     height: 2.813rem;
     text-align:center;
     color: black;
-    padding: 0.400rem;/* Should be removed. Only for demonstration */
+    padding: 0.400rem;
+    border: 0.125rem solid white;/* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
@@ -550,3 +551,188 @@ h3{
     text-align: center;
     padding: 0; 
  }
+
+ /* footer */
+
+ .footer {
+    background-color: #333333;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 3.125rem;
+    margin-top: 3.125rem;
+  }
+  
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  
+  /* footer left*/
+  
+  .footer .footer-left {
+    width: 33%;
+    padding-right: 0.938rem;
+  }
+  
+  .footer .about {
+    line-height: 1.25rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .footer .about span {
+    display: block;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+  }
+  
+  .footer .icons {
+    margin-top: 1.563rem;
+  }
+  
+  .footer .icons a {
+    display: inline-block;
+    width: 2.188rem;
+    height: 2.188rem;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 0.125rem;
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2.188rem;
+    margin-right: 0.188rem;
+    margin-bottom: 0.313rem;
+  }
+  
+  
+  /* footer center*/
+  
+  .footer .footer-center {
+    width: 30%;
+  }
+  
+  .footer .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size:1.563rem;
+    width: 2.375rem;
+    height: 2.375rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.625rem;
+    margin: 0.625rem 0.938rem;
+    vertical-align: middle;
+  }
+  
+  .footer .footer-center i.fa-envelope {
+    font-size: 1.063rem;
+    line-height: 2.375rem;
+  }
+  
+  .footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 2;
+  }
+  
+  .footer .footer-center p a {
+    color: #0099ff;
+    text-decoration: none;
+  }
+  
+  
+  /* footer right*/
+  
+  .footer .footer-right {
+    width: 35%;
+  }
+  
+  .footer h2 {
+    color: #ffffff;
+    font-size: 2.25rem;
+    font-weight: normal;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .footer h2 span {
+    color: #0099ff;
+  }
+  
+  .footer .menu {
+    color: #ffffff;
+    margin: 1.25rem 0 12rem;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .footer .menu a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer .menu a:hover {
+    color: #0099ff;
+  }
+  
+  .footer .name {
+    color: #0099ff;
+    font-size: 0.875rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  @media (max-width: 30rem) {
+    .footer {
+      font-size:0.875rem;
+    }
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 2.5rem;
+      text-align: left;
+    }
+    .footer .footer-center i {
+      margin-left: 0;
+    }
+  }
+
+
+  .footer-bottom {
+	padding: 0.625rem;
+	background: #00121b00;
+	color: #fff;
+	font-size: 0.75rem;
+	text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+.footer-bottom a{
+  text-decoration: none;
+  color: rgb(61, 116, 134);
+  font-size:medium;
+}
